@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Du Lịch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        #hero {
+            background: url('https://example.com/hero-image.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 5em 0;
+            text-align: center;
+        }
+        #hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        #hero p {
+            font-size: 1.2em;
+        }
+        #about {
+            padding: 2em;
+            text-align: center;
+            background-color: #fff;
+            margin-bottom: 1em;
+        }
+        #destinations {
+            padding: 2em;
+            text-align: center;
+            background-color: #fff;
+        }
+        #destinations h2 {
+            margin-bottom: 1em;
+        }
+        #destinations-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .destination {
+            border: 1px solid #ddd;
+            margin: 1em;
+            padding: 1em;
+            width: 200px;
+            background-color: #fff;
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với Du Lịch Khám Phá</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#">Điểm Đến</a></li>
+                <li><a href="#">Đặt Vé</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Cuộc Phiêu Lưu Của Bạn Bắt Đầu Từ Đây</h2>
+            <p>Khám phá những điểm đến tuyệt vời trên khắp thế giới.</p>
+        </section>
+        <section id="about">
+            <h2>Về Chúng Tôi</h2>
+            <p>Chúng tôi mang đến cho bạn những chuyến du lịch đáng nhớ và trải nghiệm tuyệt vời nhất. Hãy cùng khám phá thế giới với chúng tôi!</p>
+        </section>
+        <section id="destinations">
+            <h2>Điểm Đến Phổ Biến</h2>
+            <div id="destinations-list">
+                <!-- Các điểm đến sẽ được tải từ JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Du Lịch Khám Phá. Bản quyền thuộc về.</
